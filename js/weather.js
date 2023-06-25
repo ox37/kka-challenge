@@ -1,4 +1,4 @@
-const API_KEY = "cea1d46512c24d0e06d2db83ef262cd2";
+const API_KEY = config.WEATHER_APIKEY;
 
 function onGeoOk(position) {
   const lat = position.coords.latitude;
