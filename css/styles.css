@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  /* background-image: url("./images/1.jpg"); */
+  background-size: cover;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+#quote div:first-child {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote div:last-child {
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 15px;
+}
+
+h2 {
+  margin: 15px;
+}
+
+img {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-position: 0px 0px;
+}
+
+#weather {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#greeting {
+  display: flex;
+  justify-content: center;
+}
+
+#login-form,
+#todo-form {
+  display: flex;
+  justify-content: center;
+}
+
+#todo-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
